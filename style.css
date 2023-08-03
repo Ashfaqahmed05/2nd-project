@@ -1,140 +1,309 @@
-.navbar{
-    background-color:  #0065c3;
+.navbar {
+    background-color: #0065c3;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
     height: 100px;
 
 }
-.dropdown a{
+
+.dropdown a {
     margin-bottom: 20px;
 }
-.sectionOne{
-    background-image: url(https://www.pepsi.com/en-us/uploads/images/apple-music/background.png);
-    width: 100%;
-    background-size: 100%;
 
-}
-.widthAdjust{
-    max-width: 100%;
- min-width: 100%;
- max-height: 100%;
- min-height: 100%;
-}
 
-.SecOnePartTwo img{
+.widthAdjust {
     max-width: 100%;
     min-width: 100%;
- max-height: 100%;
- min-height: 50%;
+    max-height: 100%;
+    min-height: 100%;
+}
+.sectionOne {
+background-image: url(https://www.pepsi.com/en-us/uploads/images/apple-music/background.png);
+width: 100%;
+background-size: 100%;
+}
+.secOnePartOne img{
+    width: 100% ;
+    height: 100%;
 }
 .SecOnePartTwo {
     text-align: center;
 }
-/* .sectionTwo{
-    background-color: rgb(24, 23, 23);
-    background-size: 100%;
-    height: 200px;
+
+.SecOnePartTwo img {
+    max-width: 100%;
+    max-height: 100%;
 }
-.secTwo{
+.SecOnePartTwo p{
+   font-size: 16px; 
+}
+.sectionTwo{
+     background-color: black;
+}
+.secTwoPartOne{
     background-image: url(https://www.pepsi.com/en-us/uploads/images/pzs-new-taste/pzs-can-nobug-desktop.png);
     background-size: 100%;
-} */
+    background-repeat: no-repeat;
+    height: 450px;
+    padding-left: 25%;
+}
+.secTwoPartTwo{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.secTwoPartTwo h4 img{
+    width: 60%;
+}
+.secTwoPartTwo h2 img{
+    width: 80%;
+}
+.SecTwoPromoVideo{
+    width: 50%;
+}
+.video img{
+    width: 100%;
+}
 
-.sectionThree{
+.sectionThree {
     background-image: url(https://www.pepsi.com/en-us/uploads/images/nitro/Tablet_Background.png);
-    /* background-repeat: no-repeat; */
     background-size: 100%;
 }
-.secThreePartOne{
+
+.secThreePartOne {
     max-height: 500px;
 }
-.secThreePartOne img{
+
+.secThreePartOne img {
     max-height: 70%;
     max-width: 80%;
     margin-top: 20%;
-    margin-left: 25%;
+    margin-left: 40%;
     margin-bottom: 10%;
 }
-.secThreePartTwo h4 img{
+
+.secThreePartTwo h4 img {
     margin-top: 20%;
-    margin-left:20% ;
+    margin-left: 20%;
     max-height: 50%;
     max-width: 70%;
 }
-.secThreePartTwo h2{
+
+.secThreePartTwo h2 {
     font-size: 20px;
     text-align: center;
 }
-.secThreePartTwo button{
-    margin-left: 30%;
+
+.secThreePartTwo button {
+    margin-left: 40%;
 }
 
-.sectionFour{
+.sectionFour {
     background-color: #265cc5;
-    
+
 }
-.box{
-    background-color:#0c21dd;
+
+.box {
+    background-color: #0c21dd;
     color: white;
     margin-top: 5%;
 }
-.box img{
+
+.box img {
     width: 100%;
 }
-.secFourPartOne img{
+
+.secFourPartOne img {
     max-width: 100%;
 }
-.secFourPartTwo img{
+
+.secFourPartTwo img {
     max-width: 100%;
 }
-.sectionFive{
+
+.sectionFive {
     background-color: #265cc5;
 }
-.secFiveVid video{
+
+.secFiveVid video {
     max-width: 100%;
 }
-.sectionSix{
-    background-color: #0065c3;
+
+.sectionSix {
+    background-color: #003ec3;
     background-size: 100%;
-    max-height:800px;
+    max-height: 90%;
     padding-top: 10%;
 }
 
 
-.secSixHeading{
+.secSixHeading {
     width: 100%;
     height: 30%;
     margin-top: 50%;
 }
-.lastheading h1{
+.sectionSeven{
+    background-color: #0065c3;
+    color: white;
+}
+.secSevenPartOne{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-left: 10%;
+}
+.secSevenPartOne span{
+    font-size: 40px;
+    color: white;
+    font-weight: 800;
+}
+.secSevenPartOne p{
+    font-size: 14px;
+    font-weight: 500;
+    width: 70%;
+}
+.secSevenPartTwo img{
+    margin-top: 20%;
+    padding-left: 10%;
+    height: 50%;
+    width: 90%;
+}
+.lastheading h1 {
     color: #0065c3;
     font-weight: bolder;
 }
-.socialImg{
+.socialBoxContainer{
+    margin-left: 8%;
+
+}
+.socialbox{
+    padding: 0%;
+    height: 280px;
+    width: 220px;
+}
+.socialbox a img{
     width: 100%;
 }
-
-
-footer{
-    background-color: #265cc5;
+.socialboxTiktok{
+    height: 280px;
+    width: 220px;
+    padding: 0%;
 }
-.footerLinks a{
+.socialboxTiktok img{
+    width: 100%;
+}
+.socialbox:hover{
+    padding: 2px;
+    transition: 0.2s ;
+    opacity: 50%;
+}
+.socialboxTiktok:hover{
+    padding: 2px;
+    transition: 0.2s ;   
+    opacity: 50%;
+
+}
+
+footer {
+    background-color: #265cc5;
+    display: flex;
+}
+
+.footerLinks a {
     color: white;
     text-decoration: none;
     display: flex;
     justify-content: space-around;
     font-weight: 700;
 }
-.socialLinks a img{
+
+.socialLinks a img {
     height: 30px;
     width: 30px;
-    margin: 4%;
+    margin: 3%;
 }
-.footerLogo{
+
+.footerLogo {
     margin-top: 5%;
     margin-bottom: 5%;
     padding-left: 10%;
+    text-align: center;
 }
-.socialLinks{
+.footbtn{
+    display: flex;
+}
+.socialLinks {
     margin-top: 5%;
+}
+
+
+@media (max-width:550px){
+    .SecOnePartTwo p{
+        font-size: 12px; 
+        width: 100%;
+     }
+    .SecOnePartTwo img{
+    width: 80%;
+}
+.secTwoPartOne{
+    height: 250px;
+
+}
+.secTwoPartOne img{
+    height: 130px;
+    width: 130px;
+    padding-left: 25%;
+    
+}
+.secThreePartOne img{
+    max-height: 70%;
+    padding-top: 30%;
+    width: 100%;
+    margin-left: 15%;
+    margin-top: 40%
+}    
+.secThreePartTwo button{
+    margin-left: 25%;
+    margin-top: 10%;
+}
+.secSevenPartOne{
+    text-align: center;
+}
+
+.secSevenPartOne span{
+    font-size: 25px;
+    
+}
+.secSevenPartOne p{
+    margin-left: 15%;
+}
+.secSevenPartTwo img{
+    height: 70%;
+}
+.socialBoxContainer{
+    margin: 0%;
+}
+.socialbox{
+    margin-left: 0px;
+    width: 50%;
+    height: 50%;
+}
+.socialboxTiktok{
+    width: 100%;
+    padding: 0%;
+}
+.socialboxTiktok img{
+    width: 100%;
+    height: 100%;
+}
+.socialbox:hover{
+    padding: 2px;
+    transition: 0.2s ;
+}
+.socialboxTiktok:hover{
+    padding: 2px;
+    transition: 0.2s ;   
+}
+
+.socialLinks{
+    padding-left: 15%;
+}
 }
